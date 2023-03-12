@@ -13,9 +13,10 @@ public class PrimaryController {
     @FXML
 
     public void btnDesencriptar(ActionEvent actionEvent) throws IOException {
-        App.setRoot("secondary");
+        App.setRoot("tertiary");
     }
 
-    public void btnEncriptar(ActionEvent actionEvent) {
+    public void btnEncriptar(ActionEvent actionEvent) throws IOException {
+        App.setRoot("secondary");
     }
 }
