@@ -5,7 +5,6 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Font?>
 
 <AnchorPane id="AnchorPane" prefHeight="478.0" prefWidth="431.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PrimaryController">
    <children>
@@ -15,12 +14,7 @@
       </ImageView>
       <Button layoutX="239.0" layoutY="276.0" onAction="#btnDesencriptar" prefHeight="32.0" prefWidth="97.0" style="-fx-background-color: #39abff;" text="Desencriptar" />
       <Button layoutX="97.0" layoutY="276.0" onAction="#btnEncriptar" prefHeight="32.0" prefWidth="97.0" style="-fx-background-color: #39abff;" text="Encriptar" />
-      <Label disable="true" layoutX="71.0" layoutY="430.0" opacity="0.38" prefHeight="17.0" prefWidth="290.0" text="Brayan Saa - Ruben Garrido- Carlos Albeiro Galeano" />
-      <Label layoutX="130.0" layoutY="27.0" prefHeight="39.0" prefWidth="173.0" text="BIENVENIDO" textAlignment="CENTER">
-         <font>
-            <Font name="Arial" size="27.0" />
-         </font>
-      </Label>
+      <Label disable="true" layoutX="88.0" layoutY="431.0" opacity="0.38" prefHeight="17.0" prefWidth="256.0" text="Brayan Saa - xxxxxxxxxxxx - xxxxxxxxxxxxxxxxxx" />
 
 
    </children>
