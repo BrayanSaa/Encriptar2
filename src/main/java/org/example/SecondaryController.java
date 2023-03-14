@@ -26,13 +26,14 @@ public class SecondaryController {
 
     @FXML
     void btnencriptar(ActionEvent event) {
-        //textoEncriptado.setText(textoEncriptar.getText());
+       
         String texto=textoEncriptar.getText();
-        Principal.encriptar(texto);
+        texto=Principal.encriptar(texto);
+        textoEncriptado.setText(texto);
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setHeaderText(null);
         alert.setTitle("TEXTO ENCRIPTADO");
-        alert.setContentText(Principal.encriptar(texto));
+        alert.setContentText(texto);
         alert.showAndWait();
 
     }

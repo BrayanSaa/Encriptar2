@@ -22,13 +22,14 @@ public class TertiaryController {
     }
 
     public void btndesencriptar(ActionEvent actionEvent) {
-        //textoDesencriptado.setText(textoDesencriptar.getText());
+        
         String texto=textoDesencriptar.getText();
-     
+        texto=Principal.desencriptar(texto);
+        textoDesencriptado.setText(texto);
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setHeaderText(null);
         alert.setTitle("TEXTO DESENCRIPTADO");
-        alert.setContentText(Principal.desencriptar(texto));
+        alert.setContentText(texto);
         alert.showAndWait();
     }
 
